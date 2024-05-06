@@ -1,0 +1,15 @@
+
+Global Parameters
+ISTART    =  0            (Read existing wavefunction; if there)
+PREC      =  Normal       (Precision level)
+LWAVE     = .F.        (Write WAVECAR or not)
+LCHARG    = .F.        (Write CHGCAR or not)
+KSPACING  =  0.3
+
+Static Calculation
+ISMEAR    =  0            (gaussian smearing method)
+SIGMA     =  0.05         (please check the width of the smearing)
+LORBIT    =  11           (PAW radii for projected DOS)
+NELM      =  60           (Max electronic SCF steps)
+EDIFF     =  1E-04        (SCF energy convergence; in eV)
+
